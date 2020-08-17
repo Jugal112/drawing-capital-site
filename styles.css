@@ -54,11 +54,11 @@ hr.line-1 {
 
 p.body-1 {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 300;
   line-height: 38px;
   text-align: center;
   max-width: 570px;
-  padding: 20px 0px;
+  padding: 15px 0px 20px;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -410,6 +410,8 @@ hr.line-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+  justify-content: center;
   background-image: url(Assets/newsletter-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -423,18 +425,11 @@ h3.title-4 {
   text-transform: uppercase;
 }
 
-hr.line-3 {
-  width: 230px;
-}
-
-.boe-desc {
-  max-width: 400px;
-  text-align: center;
-  margin: 0px;
-  padding: 25px 0px 25px;
-  color: #000000;
-  font-weight: 300;
-  font-size: 20px;
+.sub-field {
+  height: 320px;
+  width: 665px;
+  border: 1px solid #EEE;
+  background: #ffffff;
 }
 
 .btn-box {
@@ -666,11 +661,12 @@ a.contact-email {
   }
   
   div.why-dc-box {
-    
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
   }
   
   div.dc-1, div.dc-2, div.dc-3, div.dc-4 {
-    padding: 0px 10px 35px;
+    padding: 0px 0px 40px;
   }
   
   p.dc-char {
@@ -678,15 +674,17 @@ a.contact-email {
   }
   
   p.why-dc-desc {
-    font-size: 12px;
+    font-size: 14px;
+    max-width: 350px;
   }
   
   img.team-img {
     width: 135px;
   }
   
-  p.boe-desc {
-    font-size: 18px;
+  .sub-field {
+    width: 475px;
+    height: 310px;
   }
 }
 
@@ -738,6 +736,7 @@ a.contact-email {
   div.why-dc-box {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    margin-bottom: 20px;
   }
   
   p.why-dc-desc {
@@ -767,13 +766,9 @@ a.contact-email {
     font-size: 12px;
   }
   
-  p.boe-desc {
-    font-size: 16px;
-    padding: 25px 30px;
-  }
-  
-  a.substack-link {
-    font-size: 16px;
+  .sub-field {
+    height: 275px;
+    width: 345px;
   }
   
   a.contact-email {
@@ -820,7 +815,8 @@ a.contact-email {
   
   h2.statement {
     padding-top: 45px;
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
   
   hr.line-1 {
@@ -855,13 +851,14 @@ a.contact-email {
   }
   
   p.about-body {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 23px;
+    padding: 20px 35px 45px;
   }
   
   p.why-tech {
     font-size: 18px;
-    padding: 15px 15px 20px;
+    padding: 30px 15px 20px;
   }
   
   div.tech-cont {
@@ -918,10 +915,17 @@ a.contact-email {
   div.why-dc-box {
     grid-template-columns: 100%;
     grid-template-rows: 25% 25% 25% 25%;
+    grid-row-gap: 20px;
+  }
+  
+  img.why-dc-img {
+    width: 55px;
+    height: 55px;
   }
   
   p.dc-char {
     font-size: 18px;
+    padding-top: 5px;
   }
   
   p.why-dc-desc {
@@ -930,7 +934,7 @@ a.contact-email {
   
   div.section-3 {
     grid-template-columns: 100%;
-    grid-template-rows: 725px 365px;
+    grid-template-rows: 945px 450px;
   }
   
   div.pic-group {
@@ -943,10 +947,15 @@ a.contact-email {
   }
   
   img.team-img {
-    width: 130px;
+    width: 200px;
+  }
+  
+  p.team-name {
+    font-size: 14px;
   }
   
   p.team-title {
+    font-size: 12px;
     padding-bottom: 0px;
   }
   
@@ -959,8 +968,9 @@ a.contact-email {
     padding: 25px 15px;
   }
   
-  div.sec-3b {
-    height: 365px;
+  .sub-field {
+    width: 300px;
+    height: 375px;
   }
   
   div.foot-cont {
