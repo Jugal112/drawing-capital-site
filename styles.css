@@ -1,0 +1,1047 @@
+body {
+  font-family: 'Avenir LT W01_35 Light1475496', 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+#your-element-selector {
+  margin: 0;
+}
+
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 45px;
+  background-color: #ffffff;
+}
+
+.legal-tab {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0px 65px 10px;
+  color: #828282;
+}
+
+/*NAVBAR*/
+
+.dc-logo-nav {
+  width: 200px;
+  padding: 45px 15px;
+}
+
+/*SECTION 1*/
+
+h2.statement {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #1C396F;
+  text-align: center;
+  padding-top: 115px;
+  margin-top: 40px;
+}
+
+hr.line-1 {
+  width: 230px;
+  color: #1C396F;
+}
+
+p.body-1 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+  max-width: 570px;
+  padding: 20px 0px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.btn-1 {
+  margin: 0px 5px;
+  width: 175px;
+  height: 45px; 
+  font-size: 16px;
+  color: #b4b4b4;
+  background: #ffffff;
+  border: 2px solid #b4b4b4;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: .1s;
+  font: 'Avenir LT W01_35 Light1475496', sans-serif;
+}
+
+.btn-1:hover {
+  color: #ffffff;
+  background: #A2A2A2;
+  border: 2px solid #A2A2A2;
+}
+
+.btn-2 {
+  margin: 0px 5px;
+  width: 175px;
+  height: 45px; 
+  font-size: 16px;
+  color: #ffffff;
+  background: #1C396F;
+  border-radius: 8px;
+  border: 2px solid #1C396F;
+  cursor: pointer;
+  transition-duration: .1s;
+  font: 'Avenir LT W01_35 Light1475496', sans-serif;
+}
+
+.btn-2:hover {
+  opacity: 0.7;
+}
+
+/*SECTION 2*/
+
+.box-cont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 200px 0px;
+}
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  max-width: 885px;
+}
+
+h3.title-2 {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1C396F;
+  padding-top: 30px;
+  margin: 0px 0px 15px;
+}
+
+p.about-body {
+  font-size: 16px;
+  max-width: 743px;
+  margin: auto;
+  padding: 15px 50px 45px;
+  line-height: 32px;
+}
+
+/*SECTION --- Why Tech Investing?*/
+
+.section-a {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+p.why-tech {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #1C396F;
+  padding: 75px 0px 15px;
+  margin: auto;
+}
+
+.tech-cont {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 100%;
+  margin-bottom: 65px;
+}
+
+.tech-box-1, .tech-box-2, .tech-box-3 {
+  margin: 0px 70px;
+  padding: 40px 0px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tech-box-1 {
+  background-image: url(Assets/tech-bg-1.png);
+}
+
+.tech-box-2 {
+  background-image: url(Assets/tech-bg-2.png);
+}
+
+.tech-box-3 {
+  background-image: url(Assets/tech-bg-3.png);
+}
+
+p.tech-desc {
+  line-height: 24px;
+}
+
+/*SECTION --- Disruptive Trends*/
+
+.section-b {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.trends-title {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #1C396F;
+  padding: 55px 0px 15px;
+  margin: auto;
+}
+
+.trends-box {
+  display: grid;
+  grid-template-columns: 400px 0px 400px;
+  grid-template-rows: 407px;
+  margin: auto;
+  padding: 25px 0px 85px;
+  filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+}
+
+.trends-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #4468AA;
+}
+
+.amp-symb-cont {
+  z-index: 1;
+  position: relative;
+  left: -45px;
+  display: flex;
+  width: 90px;
+  height: 90px;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.amp-symb {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #989898;
+}
+
+.trends-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #CBD1DC;
+}
+
+.trends-txt-1 {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 12px 0px;
+}
+
+.trends-txt-2 {
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.015em;
+  color: #1B3A74;
+  margin: 0;
+  padding: 10px 0px;
+}
+
+/*SECTION - WHY DC*/
+
+.dc-cont {
+  text-align: center;
+}
+
+.why-dc {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  color: #1C396F;
+  padding: 65px 0px 45px;
+  margin: auto;
+}
+
+.why-dc-box {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  margin: 0px 40px;
+}
+
+.dc-1, .dc-2, .dc-3, .dc-4 {
+  padding: 0px 20px 45px;
+}
+
+.why-dc-img {
+  width: 60px;
+  height: 60px;
+}
+
+p.dc-char {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -0.015em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr.why-dc-line {
+  width: 60px;
+  color: #000000;
+}
+
+p.why-dc-desc {
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  max-width: 284px;
+  margin: auto;
+}
+
+/*SECTION 3*/
+
+.section-3 {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%;
+  margin: 0;
+}
+
+.sec-3a {
+  display: flex;
+  flex-direction: column;
+  background-image: url(Assets/team-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.title-3 {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 30px 0px 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+hr.line-2 {
+  color: #ffffff;
+  width: 230px;
+}
+
+.pic-group {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.pic-group a {
+  text-decoration: none;
+}
+
+.member-group {
+  padding: 10px 8px;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.member-group:hover {
+  transform: scale(1.045);
+}
+
+.team-img {
+  width: 175px;
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 12px 0px 5px;
+}
+
+.team-title {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+.sec-3b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(Assets/newsletter-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3.title-4 {
+  text-align: center;
+  font-size: 24px;
+  padding: 30px 0px 0px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+hr.line-3 {
+  width: 230px;
+}
+
+.boe-desc {
+  max-width: 400px;
+  text-align: center;
+  margin: 0px;
+  padding: 25px 0px 25px;
+  color: #000000;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.btn-box {
+  display: flex;
+  padding-top: 10px;
+}
+
+.substack-link {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1C396F;
+  padding: 12px 0px;
+  transition: transform 0.1s;
+}
+
+.substack-link:hover {
+  transform: scale(1.02);
+  opacity: 0.7;
+}
+
+.q-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.question {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-top: 55px;
+  margin-bottom: 8px;
+}
+
+/*FOOTER*/
+
+.foot-cont {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 100%;
+  background: #f5f5f5;
+  padding: 25px 0px;
+}
+
+.contact-footbox, .logo-footbox, .copy-footbox {
+  display: flex;
+  align-items: center;
+}
+
+.contact-footbox {
+  justify-content: flex-start;
+}
+
+.logo-footbox {
+  justify-content: center;
+}
+
+.copy-footbox {
+  justify-content: flex-end;
+}
+
+.logo-cont {
+  display: flex;
+  align-items: center;
+}
+
+a.contact-email {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+  padding-left: 75px;
+}
+
+.foot-logo {
+  width: 60px;
+}
+
+.copyright-txt {
+  font-size: 14px;
+  padding-right: 75px;
+}
+
+.disclaimer-cont {
+  background-color: #f5f5f5;
+}
+
+.gen-disc {
+  font-size: 10px;
+  color: #808080;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 25px 75px 30px;
+}
+/*********   LEGAL   *********/
+
+.main-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.legal-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1C396F;
+  text-align: center;
+}
+
+.legal-body {
+  font-size: 14px;
+  padding: 15px 75px 40px;
+}
+
+/*********   BIO PAGE   *********/
+
+.bio-head-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-img {
+  width: 100%;
+}
+
+.back-box {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  padding: 0px 55px 20px;
+}
+
+.back-box a {
+  text-decoration: none;
+}
+
+.bio-back {
+  font-size: 18px;
+  font-weight: 800;
+  color: #c7c7c7;
+  text-transform: uppercase;
+  transition: transform 0.1s;
+}
+
+.bio-back:hover {
+  transform: scale(1.05);
+  color: #757575;
+}
+
+.bio-name-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.bio-title {
+  margin: 40px 0px 8px;
+  text-transform: uppercase;
+  color: #757575;
+  font-size: 18px;
+}
+
+.bio-name {
+  margin: 0px 0px 8px;
+  color: #000000;
+  font-size: 28px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-box a {
+  text-decoration: none;
+  color: #1C396F;
+  padding: 5px 10px 25px;
+}
+
+.icon-box a:hover {
+  opacity: 0.6;
+}
+
+.bio-body-box {
+  display: block;
+  margin: auto;
+  max-width: 65%;
+}
+
+.bio-subtitle {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.bio-full {
+  line-height: 32px;
+  margin-bottom: 75px;
+}
+
+
+/*******   RESPONSIVE   *******/
+
+@media only screen and (max-width: 1100px) {
+  
+  a.legal-tab {
+    font-size: 14px;
+    width: 120px;
+  }
+  
+  div.tech-box-1, div.tech-box-2, div.tech-box-3 {
+    margin: 0px 25px;
+  }
+  
+  p.tech-desc {
+    font-size: 14px;
+  }
+  
+  p.why-dc {
+    padding: 45px 0px;
+  }
+  
+  div.why-dc-box {
+    
+  }
+  
+  div.dc-1, div.dc-2, div.dc-3, div.dc-4 {
+    padding: 0px 10px 35px;
+  }
+  
+  p.dc-char {
+    font-size: 16px;
+  }
+  
+  p.why-dc-desc {
+    font-size: 12px;
+  }
+  
+  img.team-img {
+    width: 135px;
+  }
+  
+  p.boe-desc {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  h2.statement {
+    font-size: 16px;
+    padding-top: 70px;
+  }
+  
+  p.body-1 {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px 165px;
+    padding: 10px 0px;
+  }
+  
+  div.btn-section {
+    padding-top: 15px;
+  }
+  
+  button.btn-1, button.btn-2 {
+    width: 145px;
+    height: 42px;
+    font-size: 14px;
+  }
+  
+  div.box {
+    width: 90%;
+  }
+  
+  h3.title-2 {
+    font-size: 20px;
+  }
+  
+  p.about-body {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  div.box-cont {
+    padding-bottom: 110px;
+  }
+  
+  div.trends-box {
+    grid-template-columns: 350px 0px 350px;
+  }
+  
+  div.why-dc-box {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  
+  p.why-dc-desc {
+    margin: 0px 25px;
+    font-size: 14px;
+  }
+  
+  div.pic-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div.member-group {
+    padding: 10px 4px;
+  }
+  
+  img.team-img {
+    width: 114px;
+  }
+  
+  p.team-name {
+    font-size: 14px;
+    padding: 8px 0px 5px;
+  }
+  
+  p.team-title {
+    font-size: 12px;
+  }
+  
+  p.boe-desc {
+    font-size: 16px;
+    padding: 25px 30px;
+  }
+  
+  a.substack-link {
+    font-size: 16px;
+  }
+  
+  a.contact-email {
+    font-size: 14px;
+    padding-left: 40px;
+  }
+  
+  p.copyright-txt {
+    font-size: 12px;
+    padding-right: 40px;
+  }
+  
+  p.gen-disc {
+    padding: 25px 40px 30px;
+  }
+  
+  .bio-body-box {
+    max-width: 75%;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    height: 75px;
+  }
+  
+  .dc-logo-nav {
+    width: 135px;
+    padding: 0px 15px;
+  }
+  
+  a.legal-tab {
+    font-size: 12px;
+    padding: 0px 10px;
+    top: -30px;
+  }
+  
+  h2.statement {
+    padding-top: 45px;
+    font-size: 12px;
+  }
+  
+  hr.line-1 {
+    width: 85px;
+    margin: auto;
+  }
+  
+  p.body-1 {
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 20px;
+    padding: 12px 30px;
+    margin: 0px;
+  }
+  
+  button.btn-1, button.btn-2 {
+    width: 115px;
+    height: 36px;
+    font-size: 11px;
+  }
+  
+  #your-element-selector {
+    width: 100vw;
+  }
+  
+  div.box-cont {
+    padding: 155px 15px 115px;
+  }
+  
+  h3.title-2 {
+    font-size: 18px;
+  }
+  
+  p.about-body {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  
+  p.why-tech {
+    font-size: 18px;
+    padding: 15px 15px 20px;
+  }
+  
+  div.tech-cont {
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+    grid-row-gap: 8px;
+  }
+  
+  p.trends-title {
+    font-size: 18px;
+    padding: 30px 15px 10px;
+  }
+  
+  div.trends-box {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 0px 50%;
+    padding: 30px 15px 10px;
+    margin-bottom: 40px;
+  }
+  
+  div.trends-1 {
+    padding: 10px 0px;
+  }
+  
+  div.trends-2 {
+    padding: 75px 0px;
+  }
+  
+  p.trends-txt-1 {
+    font-size: 18px;
+    padding 12px 60px;
+  }
+  
+  p.trends-txt-2 {
+    font-size: 12px;
+    padding: 12px 60px;
+  }
+  
+  div.amp-symb-cont {
+    left: 118px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  p.amp-symb {
+    font-size: 28px;
+  }
+  
+  p.why-dc {
+    font-size: 18px;
+    padding: 45px;
+  }
+  
+  div.why-dc-box {
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+  
+  p.dc-char {
+    font-size: 18px;
+  }
+  
+  p.why-dc-desc {
+    font-size: 16px;
+  }
+  
+  div.section-3 {
+    grid-template-columns: 100%;
+    grid-template-rows: 725px 365px;
+  }
+  
+  div.pic-group {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 1500px;
+    padding-top: 0px;
+  }
+  
+  img.team-img {
+    width: 130px;
+  }
+  
+  p.team-title {
+    padding-bottom: 0px;
+  }
+  
+  h3.title-4 {
+    padding: 55px 0px 0px;
+  }
+  
+  p.boe-desc {
+    font-size: 18px;
+    padding: 25px 15px;
+  }
+  
+  div.sec-3b {
+    height: 365px;
+  }
+  
+  div.foot-cont {
+  grid-template-columns: 100%;
+  grid-template-rows: 115px 30px 30px;
+  }
+  #a {
+    order: 2;
+  }
+  #b {
+    order: 1;
+  }
+  #c {
+    order: 3;
+  }
+  
+  .contact-footbox, .logo-footbox, .copy-footbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+  }
+  a.contact-email {
+    padding: 0;
+  }
+  
+  p.copyright-txt {
+    padding: 0px;
+    margin: 0;
+  }
+  
+  p.gen-disc {
+    padding: 25px 20px;
+  }
+  
+  h2.legal-title {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  p.legal-body {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
+  
+  div.back-box {
+    padding: 0px 40px 10px;
+  }
+  
+  div.bio-name-box {
+    margin-bottom: 0px;
+  }
+  
+  a.bio-back {
+    font-size: 14px;
+  }
+  
+  h5.bio-title {
+    font-size: 14px;
+  }
+  
+  p.bio-name {
+    font-size: 18px;
+  }
+  
+  p.bio-subtitle {
+    font-size: 16px;
+  }
+  
+  p.bio-full {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 45px;
+  }
+  
+  div.bio-body-box {
+    margin: 0px 20px;
+    max-width: 100%;
+  }
+}
+
+
+
