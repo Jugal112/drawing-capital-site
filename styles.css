@@ -387,6 +387,14 @@ hr.line-2 {
 
 .team-img {
   width: 175px;
+  transition: filter .1s ease-in-out;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.team-img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 
 .team-name {
@@ -426,8 +434,8 @@ h3.title-4 {
 }
 
 .sub-field {
-  height: 320px;
-  width: 665px;
+  height: 343px;
+  width: 684px;
   border: 1px solid #EEE;
   background: #ffffff;
 }
@@ -683,8 +691,8 @@ a.contact-email {
   }
   
   .sub-field {
-    width: 475px;
-    height: 310px;
+    width: 487px;
+    height: 313px;
   }
 }
 
@@ -707,7 +715,7 @@ a.contact-email {
   }
   
   button.btn-1, button.btn-2 {
-    width: 145px;
+    width: 155px;
     height: 42px;
     font-size: 14px;
   }
@@ -767,8 +775,8 @@ a.contact-email {
   }
   
   .sub-field {
-    height: 275px;
-    width: 345px;
+    height: 288px;
+    width: 364px;
   }
   
   a.contact-email {
@@ -833,9 +841,9 @@ a.contact-email {
   }
   
   button.btn-1, button.btn-2 {
-    width: 115px;
-    height: 36px;
-    font-size: 11px;
+    width: 140px;
+    height: 40px;
+    font-size: 12px;
   }
   
   #your-element-selector {
@@ -969,8 +977,8 @@ a.contact-email {
   }
   
   .sub-field {
-    width: 300px;
-    height: 375px;
+    width: 345px;
+    height: 420px;
   }
   
   div.foot-cont {
