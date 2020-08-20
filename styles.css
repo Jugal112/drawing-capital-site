@@ -331,9 +331,7 @@ p.why-dc-desc {
 .sec-3a {
   display: flex;
   flex-direction: column;
-  background-image: url(Assets/team-bg.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #7C8AA6;
   margin: 0;
 }
 
