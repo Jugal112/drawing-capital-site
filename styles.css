@@ -621,7 +621,7 @@ a.contact-email {
   max-width: 65%;
 }
 
-.bio-quote {
+p.bio-quote {
   font-weight: 900;
   padding-left: 15px;
   margin-bottom: 36px;
