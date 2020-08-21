@@ -104,7 +104,8 @@ p.body-1 {
 }
 
 .btn-2:hover {
-  opacity: 0.7;
+  background: #60749A;
+  border: 2px solid #60749A;
 }
 
 /*SECTION 2*/
